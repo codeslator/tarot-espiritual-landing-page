@@ -3,12 +3,9 @@
     <div class="container mb-5">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center text-center text-light">
         <div class="col p-3 p-lg-5 pt-lg-3 mx-auto">
-          <h1 class="display-4 fw-bold lh-1">Vidente Juan Quintero</h1>
+          <h1 class="display-4 fw-bold lh-1">{{ homeSection.title }}</h1>
           <p class="lead my-4">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
+            {{ homeSection.hero }}
           </p>
           <div
             class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3"
@@ -17,7 +14,7 @@
               href="#about"
               class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
             >
-              ¿Quién Soy?
+              {{ homeSection.primaryButton }}
             </a>
           </div>
         </div>
@@ -37,9 +34,17 @@
 </template>
 
 <script>
+import useData from "@/hooks/useData";
 
 export default {
   name: "Home",
+  setup() {
+    const { homeSection } = useData();
+
+    return {
+      homeSection
+    };
+  }
 };
 </script>
 

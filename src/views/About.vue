@@ -23,16 +23,11 @@
 </template>
 
 <script>
-// import { onMounted } from 'vue';
-// import AOS from 'aos';
 import useData from '@/hooks/useData';
 
 export default {
   name: 'Hero',
   setup() {
-    // onMounted(() => {
-    //   AOS.init();
-    // })
     const { aboutSection } = useData();
 
     return {
