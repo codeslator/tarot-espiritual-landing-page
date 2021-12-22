@@ -1,0 +1,19 @@
+$theme-colors: (
+  "primary":    #9d0208,
+  "secondary":  #6a040f,
+  "success":    #198754,
+  "info":       #0dcaf0,
+  "warning":    #ffc107,
+  "danger":     #dc3545,
+  "light":      #f8f9fa,
+  "dark":       #03071e
+);
+
+:root {
+  /* Color */
+  --vc-clr-primary: #6a040f;
+  --vc-clr-secondary: #9d0208;
+  --vc-clr-white: #ffffff;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
