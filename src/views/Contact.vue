@@ -27,7 +27,7 @@
               <i class="fa-2x" :class="icon"></i>
             </div>
           </div>
-          <a :href="url" class="link link-primary" target="_blank">{{ contact }}</a>
+          <a :href="url" class="link link-primary text-light" target="_blank">{{ contact }}</a>
         </div>
       </div>
     </div>
