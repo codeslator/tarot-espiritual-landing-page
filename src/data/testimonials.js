@@ -28,4 +28,39 @@ export const testimonials = [
     fullName: 'Elsa Zubillaga',
     avatarUrl: require('@/assets/avatar-4.jpg'),
   },
+
+  {
+    text: 'Tenía tiempo que no conocía a un vidente como el vidente Juan, el cual me ha ayudado mucho a recuperar mi salud.',
+    username: '@saurabh_saurabh_07',
+    fullName: 'Luis Arrieta',
+    avatarUrl: require('@/assets/avatar-8.jpeg'),
+  },
+
+  {
+    text: 'Recomiendo mucho al vidente Juan ya que es un hombre que pudo solucionar el problema tan difícil que estaba pasando con mi marido que ya casi nos íbamos a divorciar y el brujo Juan me ayudo a que no nos divorciáramos y estuviésemos juntos otra vez.',
+    username: '@saurabh_saurabh_07',
+    fullName: 'Anabelle Quintero',
+    avatarUrl: require('@/assets/avatar-7.png'),
+  },
+
+  {
+    text: 'Yo estaba enamorada de una chica desde hacía muchísimos años y nunca pude tener nada con ella, le mandé a hacer muchos trabajos y ninguno resultó, pero conocí al Vidente Juan, maestro de ceremonia y me ayudó a enamorar a esa mujer, mi amada.',
+    username: '@saurabh_saurabh_07',
+    fullName: 'Paola Fernández',
+    avatarUrl: require('@/assets/avatar-9.jpg'),
+  },
+
+  {
+    text: 'Maestro, le doy muchas gracias por todo su trabajo y por todo lo que pasó luego, como usted me lo dijo, ese hombre vino a mí y me pidió perdón en 3 días, no tengo como pagarle todo el sufrimiento que me quitó. Voy a estar agradecida con usted toda la vida.',
+    username: '@saurabh_saurabh_07',
+    fullName: 'Jacqueline Pérez',
+    avatarUrl: require('@/assets/avatar-6.png'),
+  },
+
+  {
+    text: '¡Padre, estoy más feliz que nunca! Mi novio dejo a la mujer con la que se había metido y volvió conmigo como usted me dijo, llegó de rodillas pidiéndome perdón y diciendo que me quiere y me ama más que nunca.',
+    username: '@saurabh_saurabh_07',
+    fullName: 'Abril Raocha',
+    avatarUrl: require('@/assets/avatar-10.jpg'),
+  },
 ];

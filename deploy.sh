@@ -12,6 +12,6 @@ git add -A
 
 git commit -m "New Deploy"
 
-git push -f git@github.com:codeslator/tarot-espiritual-landing-page.git main:gh-pages
+git push -f git@github.com:codeslator/tarot-espiritual-landing-page.git master:gh-pages
 
 cd -
