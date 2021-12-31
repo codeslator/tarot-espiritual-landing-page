@@ -18,7 +18,7 @@
       </li>
     </ul>
     <div class="py-3 d-flex justify-content-center">
-      <span class="text-center text-muted">&copy; {{ new Date().getFullYear() }} - Cuellar Technologies - Codeslator.dev</span>
+      <span class="text-center text-muted">&copy; {{ new Date().getFullYear() }} - Powered by Codeslator.dev</span>
     </div>
   </footer>
 </template>

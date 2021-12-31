@@ -16,8 +16,8 @@ export const contactsSection = [
   },
   {
     icon: 'fa fa-envelope',
-    contact: 'tarot.espirutal.amarre@gmail.com',
-    url: 'tarot.espirutal.amarre@gmail.com'
+    contact: 'tarot.espiritual.amarre@gmail.com',
+    url: 'tarot.espiritual.amarre@gmail.com'
   },
   
 ];

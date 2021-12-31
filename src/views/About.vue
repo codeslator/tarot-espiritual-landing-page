@@ -2,7 +2,9 @@
   <section class="about" id="about">
     <div class="container mt-5">
       <div class="row mb-5 align-items-center">
-        <div class="col-sm-12 col-md-5 col-lg-5 d-flex justify-content-center p-5">
+        <div
+          class="col-sm-12 col-md-5 col-lg-5 d-flex justify-content-center p-5"
+        >
           <img
             class="rounded img-fluid"
             :src="section.imageUrl"
@@ -10,8 +12,9 @@
           />
         </div>
         <div class="col-sm-12 col-md-7 col-lg-7 py-5">
-          <h1 class="display-4 fw-bold lh-1 text-center">
-            {{ section.title }}
+          <h1 class="display-4 text-center">
+            <span class="fw-bold lh-1">{{ section.title }}</span>
+            🧙‍♂️
           </h1>
           <p class="lead text-center">
             {{ section.text }}
@@ -23,20 +26,19 @@
 </template>
 
 <script>
-import useData from '@/hooks/useData';
+import useData from "@/hooks/useData";
 
 export default {
-  name: 'Hero',
+  name: "Hero",
   setup() {
     const { aboutSection } = useData();
 
     return {
       section: aboutSection,
     };
-  }
-}
+  },
+};
 </script>
 
 <style>
-
 </style>

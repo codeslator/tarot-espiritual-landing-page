@@ -23,7 +23,7 @@
           :key="index"
         >
           <div class="contact-avatar py-2 d-flex justify-content-center">
-            <a :href="url" class="link contact-icon bg-light text-primary">
+            <a :href="url" class="link contact-icon bg-light text-primary" target="_blank">
               <i class="fa-2x" :class="icon"></i>
             </a>
           </div>

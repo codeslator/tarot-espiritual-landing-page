@@ -1,7 +1,11 @@
 <template>
   <section class="services" id="services">
-    <div class="container">
-      <h1 class="display-4 fw-bold lh-1 text-center">{{ section.title }}</h1>
+    <div class="container pt-3">
+      <h1 class="display-5 text-center">
+        🕯️
+        <span class="fw-bold lh-1">{{ section.title }}</span>
+        🕯️
+      </h1>
       <p class="lead text-center mt-3">
         {{ section.text }}
       </p>
@@ -20,7 +24,7 @@
 
 <script>
 import { defineAsyncComponent } from "vue";
-import useData from '@/hooks/useData';
+import useData from "@/hooks/useData";
 export default {
   name: "Services",
   components: {
