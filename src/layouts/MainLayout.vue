@@ -8,11 +8,12 @@
     <contact />
   </main>
   <custom-footer />
-  <fab :icon="'fa-whatsapp'" :type="'btn-success'" :link="'https://api.whatsapp.com/send/?phone=5491152175891&text&app_absent=0'" />
+  <fab :icon="'fa-whatsapp'" :type="'btn-success'" :link="contactsSection[0].url" />
 </template>
 
 <script>
 import { defineAsyncComponent } from "vue";
+import useData from '@/hooks/useData';
 
 export default {
   name: "MainLayout",
@@ -41,6 +42,14 @@ export default {
     Contact: defineAsyncComponent(() =>
       import(/* webpackChunkName: "Contact" */ "@/views/Contact")
     ),
+  },
+  setup() {
+    const { contactsSection } = useData();
+
+
+    return {
+      contactsSection
+    }
   }
 };
 </script>
