@@ -2,7 +2,7 @@ export const contactsSection = [
   {
     icon: 'fab fa-whatsapp',
     contact: '+54 9 11 5217-5891',
-    url: 'https://api.whatsapp.com/send?phone=+5491152175891&text=Hola,%20v%C3%AD%20esto%20desde%20la%20p%C3%A1gina%20del%20Vidente%20Juan%20Quintero.'
+    url: 'https://api.whatsapp.com/send?phone=+5491152175891&text=Hola,%20vi%20esto%20desde%20la%20p%C3%A1gina%20del%20Vidente%20Juan%20Quintero.'
   },
   {
     icon: 'fab fa-instagram',
