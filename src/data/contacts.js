@@ -1,8 +1,8 @@
 export const contactsSection = [
   {
     icon: 'fab fa-whatsapp',
-    contact: '+54 9 11 5273-8141',
-    url: 'https://api.whatsapp.com/send?phone=+5491152738141&text=Hola,%20vi%20esto%20desde%20la%20p%C3%A1gina%20del%20Vidente%20Juan%20Quintero.'
+    contact: '+1 (206) 886-0850',
+    url: 'https://api.whatsapp.com/send?phone=+12068860850&text=Hola,%20vi%20esto%20desde%20la%20p%C3%A1gina%20del%20Vidente%20Juan%20Quintero.'
   },
   {
     icon: 'fab fa-instagram',
